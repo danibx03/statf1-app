@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "F1Reg";   
+    src: local("Formula1-Regular-1"),
+        url("../Assets/fonts/Formula1-Regular-1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "F1Bold";   
+    src: local("Formula1-Bold-4"),
+        url("../Assets/fonts/Formula1-Bold-4.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "F1Wide";   
+    src: local("Formula1-Wide"),
+        url("../Assets/fonts/Formula1-Wide.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.background{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(74, 9, 74) 3.00%,rgb(239, 26, 45) 100.00%);
+}
+
+.button-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: auto;
+}
+
+.hdesign{
+    font-family: 'F1Bold';
+    font-weight: bold;
+    margin-top: 160px;
+    font-size: 50px;
+
+}
+  
+.button-design{
+    padding: 20px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: 'F1Reg';
+}
+  
+.button-design:hover {
+    background-color: #fff;
+    color: #010b11;
+}
+
+.container1 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: space-between;
+    flex-direction: column;
+}
+.links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons {
+    border: 2px dashed rgba(120, 120, 120, 0.4);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}

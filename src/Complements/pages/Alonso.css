@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "F1Reg";   
+    src: local("Formula1-Regular-1"),
+        url("../Assets/fonts/Formula1-Regular-1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "F1Bold";   
+    src: local("Formula1-Bold-4"),
+        url("../Assets/fonts/Formula1-Bold-4.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "F1Wide";  
+    src: local("Formula1-Wide"),
+        url("../Assets/fonts/Formula1-Wide.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+.backgrounda{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(53, 140, 117) 2.00%,rgb(0, 0, 0) 100.00%);
+}
+  
+.imgword-container {
+    top: 0px;
+    flex: 0 0 auto;
+    left: 40px;
+    width: 428px;
+    bottom: 0px;
+    height: 470px;
+    margin: auto;
+    padding-right: 90px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+}
+  
+.img-container {
+    left: 0px;
+    right: 0px;
+    width: 340px;
+    bottom: 88px;
+    height: 340px;
+    margin: auto;
+    position: absolute;
+    align-self: stretch;
+    object-fit: cover;
+    border: 3px solid black;  
+    border-radius: 8px;
+}
+  
+.imgtext {
+    left: 0px;
+    right: 0px;
+    bottom: 22px;
+    margin: auto;
+    position: absolute;
+    align-self: stretch;
+    text-align: center;
+    font-family: 'F1Reg';
+    font-weight: bold;
+}
+  
+.databoxa{
+    top: 0px;
+    flex: 0 0 auto;
+    right: 103px;
+    width: 526px;
+    bottom: 0px;
+    height: 496px;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    align-items: center;
+    box-shadow: 10px 20px 10px 0px #000000;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: rgba(57, 45, 45, 0.61);
+}
+  
+  

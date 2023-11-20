@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "F1Reg";   
+    src: local("Formula1-Regular-1"),
+        url("../Assets/fonts/Formula1-Regular-1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "F1Bold";   
+    src: local("Formula1-Bold-4"),
+        url("../Assets/fonts/Formula1-Bold-4.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "F1Wide";   
+    src: local("Formula1-Wide"),
+        url("../Assets/fonts/Formula1-Wide.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'F1Reg';
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navbar {
+    background: rgb(16, 11, 11);
+    overflow: hidden;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.webName {
+    font-size: 25px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.Homedes {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 20px; 
+}
+
